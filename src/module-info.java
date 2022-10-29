@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author serha
- *
- */
-module cashDispenser {
-}
