@@ -1,7 +1,5 @@
 package cashDispenser;
-
 import java.util.Scanner;
-
 public class Client {
 	
 	String name="MR. JAVABANK MANAGER SERHAT";
@@ -11,7 +9,7 @@ public class Client {
 	String tcNo= "1";
 	String password ="1";
 	
-	 void withdrawMoney (int quantity) throws InterruptedException {
+	void withdrawMoney (int quantity) throws InterruptedException {
 		
 		this.totalMoney =this.totalMoney-quantity;
 		char loadingEffect [] = {'L', 'O', 'A' , 'D', 'I', 'N', 'G'};
@@ -64,7 +62,7 @@ public class Client {
 			System.out.print("*");
 			}
 		
-		//if(controlPassword.equals(this.password)) { System.out.println("passed");}
+		
     	
     	if(controlTc.equals(this.tcNo) && controlPassword.equals(this.password)) {
 			System.out.println("You have successfully logged in !");
@@ -198,10 +196,7 @@ public class Client {
 				
 			case 3:
 				exitMethot();
-    	 
-    	 
-    	 
-			}
+    	 }
 			
      }
      
