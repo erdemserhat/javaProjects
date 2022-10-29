@@ -50,17 +50,7 @@ public class Client {
 		System.out.println("Anything else ?");
 		userMenu ();
 	}
-	
-	//int sendMoney (int quantity) {
-		//OtherClient personHaveTakenMoney = new OtherClient();
-		//personHaveTakenMoney.totalMoney= personHaveTakenMoney.totalMoney +quantity;
-		//return totalMoney-quantity;
 		
-	//}
-	
-	
-	
-	
    public   void Login () throws InterruptedException {
 	  
     	System.out.println("Please enter the your tc number : ");
@@ -116,13 +106,10 @@ public class Client {
 		
 		}
     	
-    	
-		
-		
-		
+
 	}
     
-    //String name1, String surName1, int age, int totalMoney1, long tcNo1, String password1 
+  
     
      public void Register () throws InterruptedException {
     	
