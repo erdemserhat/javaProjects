@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author serha
+ *
+ */
+module cashDispenser {
+}
